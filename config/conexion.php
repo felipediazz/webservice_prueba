@@ -6,10 +6,10 @@
  */
 class Conexion extends PDO
 {
-    private $hostBd = 'localhost';
-    private $nombreBd = 'musicprofesional';
-    private $usuarioBd = 'root';
-    private $passwordBd = '';
+    private $hostBd = 'us-cdbr-east-05.cleardb.net';
+    private $nombreBd = 'heroku_6752731b5d11066';
+    private $usuarioBd = 'b0213c96fda657';
+    private $passwordBd = '78319b84';
     
     public function __construct()
     {
